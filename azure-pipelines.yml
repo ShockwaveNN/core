@@ -1,0 +1,14 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+pool:
+  vmImage: 'Ubuntu 16.04'
+
+steps:
+- script: cd core/Common/3dParty && ./make.sh
+  displayName: Build 3dParty
+
+- script: cd core/ && ./make.sh
+  displayName: Build Core
