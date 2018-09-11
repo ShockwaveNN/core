@@ -7,7 +7,7 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 steps:
-- script: cd core/Common/3dParty && ./make.sh
+- script: ls && cd Common/3dParty && ./make.sh
   displayName: Build 3dParty
 
 - script: cd core/ && ./make.sh
