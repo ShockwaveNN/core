@@ -13,5 +13,5 @@ steps:
 - script: cd Common/3dParty && ./make.sh
   displayName: Build 3dParty
 
-- script: cd core/ && ./make.sh
+- script: bash ./make.sh
   displayName: Build Core
