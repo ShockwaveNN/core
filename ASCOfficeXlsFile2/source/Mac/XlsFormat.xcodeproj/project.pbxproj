@@ -5230,7 +5230,7 @@
 					"$(PROJECT_DIR)/../../../DesktopEditor/freetype-2.5.2/devel",
 					"$(PROJECT_DIR)/../../../DesktopEditor/agg-2.4/include",
 					"$(PROJECT_DIR)/../../../Common/3dParty/pole",
-					"$(PROJECT_DIR)/../../../Common/3dParty/boost/boost_1_58_0",
+					"$(PROJECT_DIR)/../../../Common/3dParty/boost/boost_1_68_0",
 					"$(PROJECT_DIR)/../../../ASCOfficeXlsFile2/source/XlsFormat",
 					"$(PROJECT_DIR)/../../../ASCOfficeXlsFile2/source/Common",
 				);
@@ -5265,7 +5265,7 @@
 					"$(PROJECT_DIR)/../../../DesktopEditor/freetype-2.5.2/devel",
 					"$(PROJECT_DIR)/../../../DesktopEditor/agg-2.4/include",
 					"$(PROJECT_DIR)/../../../Common/3dParty/pole",
-					"$(PROJECT_DIR)/../../../Common/3dParty/boost/boost_1_58_0",
+					"$(PROJECT_DIR)/../../../Common/3dParty/boost/boost_1_68_0",
 					"$(PROJECT_DIR)/../../../ASCOfficeXlsFile2/source/XlsFormat",
 					"$(PROJECT_DIR)/../../../ASCOfficeXlsFile2/source/Common",
 				);

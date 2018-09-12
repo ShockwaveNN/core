@@ -87,10 +87,10 @@
 		7CC744181F20E9BF006A9889 /* libXpsFile.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libXpsFile.dylib; path = ../../../../../build/lib/mac_64/libXpsFile.dylib; sourceTree = "<group>"; };
 		7CC7442F1F20E9D5006A9889 /* libicudata.55.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicudata.55.1.dylib; path = ../../../../../build/bin/icu/mac_64/libicudata.55.1.dylib; sourceTree = "<group>"; };
 		7CC744301F20E9D5006A9889 /* libicuuc.55.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicuuc.55.1.dylib; path = ../../../../../build/bin/icu/mac_64/libicuuc.55.1.dylib; sourceTree = "<group>"; };
-		7CC744331F20EAE6006A9889 /* libboost_date_time.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_date_time.a; path = ../../../../../Common/3dParty/boost/boost_1_58_0/build/mac_64/static/libboost_date_time.a; sourceTree = "<group>"; };
-		7CC744341F20EAE6006A9889 /* libboost_filesystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_filesystem.a; path = ../../../../../Common/3dParty/boost/boost_1_58_0/build/mac_64/static/libboost_filesystem.a; sourceTree = "<group>"; };
-		7CC744351F20EAE6006A9889 /* libboost_regex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_regex.a; path = ../../../../../Common/3dParty/boost/boost_1_58_0/build/mac_64/static/libboost_regex.a; sourceTree = "<group>"; };
-		7CC744361F20EAE6006A9889 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = ../../../../../Common/3dParty/boost/boost_1_58_0/build/mac_64/static/libboost_system.a; sourceTree = "<group>"; };
+		7CC744331F20EAE6006A9889 /* libboost_date_time.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_date_time.a; path = ../../../../../Common/3dParty/boost/boost_1_68_0/build/mac_64/static/libboost_date_time.a; sourceTree = "<group>"; };
+		7CC744341F20EAE6006A9889 /* libboost_filesystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_filesystem.a; path = ../../../../../Common/3dParty/boost/boost_1_68_0/build/mac_64/static/libboost_filesystem.a; sourceTree = "<group>"; };
+		7CC744351F20EAE6006A9889 /* libboost_regex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_regex.a; path = ../../../../../Common/3dParty/boost/boost_1_68_0/build/mac_64/static/libboost_regex.a; sourceTree = "<group>"; };
+		7CC744361F20EAE6006A9889 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = ../../../../../Common/3dParty/boost/boost_1_68_0/build/mac_64/static/libboost_system.a; sourceTree = "<group>"; };
 		7CC7443B1F20F0A9006A9889 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		7CC7443D1F20F114006A9889 /* xmldom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmldom.cpp; path = ../../../../../DesktopEditor/xml/src/xmldom.cpp; sourceTree = "<group>"; };
 		7CC7443E1F20F114006A9889 /* xmllight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmllight.cpp; path = ../../../../../DesktopEditor/xml/src/xmllight.cpp; sourceTree = "<group>"; };
@@ -331,14 +331,14 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LIBRARY_SEARCH_PATHS = (
 					/Users/Oleg/Desktop/GIT/core/build/lib/mac_64,
-					/Users/Oleg/Desktop/GIT/core/Common/boost_1_58_0/stage/lib,
+					/Users/Oleg/Desktop/GIT/core/Common/boost_1_68_0/stage/lib,
 					/Users/Oleg/Desktop/GIT/core/build/bin/icu/mac_64,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
-					"-I./../../../../../Common/boost_1_58_0",
+					"-I./../../../../../Common/boost_1_68_0",
 					"-I./../../../../../DesktopEditor/xml/libxml2/include",
 					"-I./../../../../../DesktopEditor/freetype-2.5.2/include",
 					"-I./../../../../../DesktopEditor/agg-2.4/include",
@@ -403,13 +403,13 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LIBRARY_SEARCH_PATHS = (
 					/Users/Oleg/Desktop/GIT/core/build/lib/mac_64,
-					/Users/Oleg/Desktop/GIT/core/Common/boost_1_58_0/stage/lib,
+					/Users/Oleg/Desktop/GIT/core/Common/boost_1_68_0/stage/lib,
 					/Users/Oleg/Desktop/GIT/core/build/bin/icu/mac_64,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = (
-					"-I./../../../../../Common/boost_1_58_0",
+					"-I./../../../../../Common/boost_1_68_0",
 					"-I./../../../../../DesktopEditor/xml/libxml2/include",
 					"-I./../../../../../DesktopEditor/freetype-2.5.2/include",
 					"-I./../../../../../DesktopEditor/agg-2.4/include",

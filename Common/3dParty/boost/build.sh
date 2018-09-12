@@ -20,10 +20,10 @@ case "$architecture" in
   *)        arch="_32" ;;
 esac
 
-outputdir="$SCRIPTPATH/boost_1_58_0/build/$platform$arch"
+outputdir="$SCRIPTPATH/boost_1_68_0/build/$platform$arch"
 echo $outputdir
 
-cd "$SCRIPTPATH/boost_1_58_0"
+cd "$SCRIPTPATH/boost_1_68_0"
 
 folder="build/$platform$arch"
 if [ ! -d $folder ]; then

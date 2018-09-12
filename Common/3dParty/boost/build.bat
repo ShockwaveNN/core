@@ -1,12 +1,12 @@
 SET SCRIPTPATH=%~dp0
 CD /D %~dp0
 
-SET outputdir=%SCRIPTPATH%boost_1_58_0\build\%platform%
+SET outputdir=%SCRIPTPATH%boost_1_68_0\build\%platform%
 echo "%outputdir%"
 
 SET TOOLSET=msvc-14.0
 
-CD "%SCRIPTPATH%\boost_1_58_0"
+CD "%SCRIPTPATH%\boost_1_68_0"
 call .\bootstrap.bat
 
 if exist "stage" (

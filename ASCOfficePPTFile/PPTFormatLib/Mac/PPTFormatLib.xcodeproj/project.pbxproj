@@ -545,7 +545,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/include/,
 					/usr/include/libxml2/,
-					"$(PROJECT_DIR)/../../../Common/3dParty/boost/boost_1_58_0",
+					"$(PROJECT_DIR)/../../../Common/3dParty/boost/boost_1_68_0",
 					"$(PROJECT_DIR)/../../../DesktopEditor/xml/libxml2/include",
 					"$(PROJECT_DIR)/../../../DesktopEditor/freetype-2.5.2/include",
 				);
@@ -582,7 +582,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/include/,
 					/usr/include/libxml2/,
-					"$(PROJECT_DIR)/../../../Common/3dParty/boost/boost_1_58_0",
+					"$(PROJECT_DIR)/../../../Common/3dParty/boost/boost_1_68_0",
 					"$(PROJECT_DIR)/../../../DesktopEditor/xml/libxml2/include",
 					"$(PROJECT_DIR)/../../../DesktopEditor/freetype-2.5.2/include",
 				);
