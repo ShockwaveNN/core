@@ -27,6 +27,8 @@ cd "$SCRIPTPATH/boost_1_58_0"
 
 folder="build/$platform$arch"
 if [ ! -d $folder ]; then
+  echo 'g++ version'
+  g++ -v
   ./bootstrap.sh --with-libraries=filesystem,system,date_time,regex
 
    stage="stage"
