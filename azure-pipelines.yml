@@ -15,6 +15,12 @@ jobs:
   
   - script: g++ -v
     displayName: gcc version
+  
+  - script: cd Common/3dParty/boost && ./fetch.sh
+    displayName: fetch boost
+ 
+  - script: cd Common/3dParty/boost && ./fetch.sh
+    displayName: build boost   
 
   - script: cd Common/3dParty && ./make.sh
     displayName: Build 3dParty
