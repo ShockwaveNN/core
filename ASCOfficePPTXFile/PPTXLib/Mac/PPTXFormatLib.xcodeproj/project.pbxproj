@@ -3754,7 +3754,7 @@
 					"$(PROJECT_DIR)/../../../Common/ASCDocxFormat/Source/Utility",
 					"$(PROJECT_DIR)/../../../Common/ASCDocxFormat/Source/XML",
 					"$(PROJECT_DIR)/../../../Common/ASCDocxFormat/Source",
-					"$(PROJECT_DIR)/../../../Common/3dParty/boost/boost_1_58_0",
+					"$(PROJECT_DIR)/../../../Common/3dParty/boost/boost_1_68_0",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = PPTXFormatLib_ios;
@@ -3796,7 +3796,7 @@
 					"$(PROJECT_DIR)/../../../Common/ASCDocxFormat/Source/Utility",
 					"$(PROJECT_DIR)/../../../Common/ASCDocxFormat/Source/XML",
 					"$(PROJECT_DIR)/../../../Common/ASCDocxFormat/Source",
-					"$(PROJECT_DIR)/../../../Common/3dParty/boost/boost_1_58_0",
+					"$(PROJECT_DIR)/../../../Common/3dParty/boost/boost_1_68_0",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = PPTXFormatLib_ios;
